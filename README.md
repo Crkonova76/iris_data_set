@@ -25,3 +25,6 @@ Four features were measured from each sample: the length and the width of the se
 >reference: https://en.wikipedia.org/wiki/Standard_deviation
 
 ### *Minimum , Maximum , Range*
+
+### *Boxplot*
+* Interpretation of Boxplot on the picture below:
