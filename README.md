@@ -28,4 +28,4 @@ Four features were measured from each sample: the length and the width of the se
 
 ### *Boxplot*
 * Interpretation of Boxplot on the picture below:
-![Boxplot.pdf](https://github.com/Crkonova76/iris_data_set/files/3077746/Boxplot.pdf)
+![boxplot](https://user-images.githubusercontent.com/47481671/56097809-1d1bc800-5ef1-11e9-97ab-1299a0767349.JPG)
