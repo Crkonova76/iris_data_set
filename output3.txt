@@ -1,0 +1,27 @@
+           sepal_length sepal_width petal_length petal_width
+                   mean        mean         mean        mean
+species                                                     
+setosa            5.006       3.418        1.464       0.244
+versicolor        5.936       2.770        4.260       1.326
+virginica         6.588       2.974        5.552       2.026
+
+           sepal_length sepal_width petal_length petal_width
+                    std         std          std         std
+species                                                     
+setosa         0.352490    0.381024     0.173511    0.107210
+versicolor     0.516171    0.313798     0.469911    0.197753
+virginica      0.635880    0.322497     0.551895    0.274650
+
+           sepal_length sepal_width petal_length petal_width
+                   amin        amin         amin        amin
+species                                                     
+setosa              4.3         2.3          1.0         0.1
+versicolor          4.9         2.0          3.0         1.0
+virginica           4.9         2.2          4.5         1.4
+
+           sepal_length sepal_width petal_length petal_width
+                   amax        amax         amax        amax
+species                                                     
+setosa              5.8         4.4          1.9         0.6
+versicolor          7.0         3.4          5.1         1.8
+virginica           7.9         3.8          6.9         2.5

@@ -13,10 +13,15 @@ data = pd.read_csv('https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-page
 
 
 # Displaying the the first 5 lines of the data set
+with open("output1.txt", 'w') as the_file:
+    the_file.write(str(data.head(5)))
+
 print(data.head(5))
 
 # Basic statistics about the whole data set
 print(data.describe())
+with open("output2.txt", 'wt') as the_file:
+    the_file.write(str(data.describe()))
 
 # Basic statistics comparing the sepal length/width and petal length/width
 # grouped by the species
@@ -24,6 +29,17 @@ print(data.describe())
 grouped = data.groupby('species')
 print(grouped.agg([np.mean, np.std, np.min, np.max]))
 
+with open("output3.txt", 'wt') as the_file:
+    the_file.write(str(grouped.agg([np.mean])))
+
+with open("output3.txt", 'a') as the_file:
+    the_file.write('\n\n' + str(grouped.agg([np.std])))
+
+with open("output3.txt", 'a') as the_file:
+    the_file.write('\n\n' + str(grouped.agg([np.min])))
+
+with open("output3.txt", 'a') as the_file:
+    the_file.write('\n\n' + str(grouped.agg([np.max])))
 '''
 # Analyses of Variables-sepal length
 # Sepal lenght histogram on the basis of species
