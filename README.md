@@ -40,11 +40,11 @@ Four features were measured from each sample: the length and the width of the se
 
 3, The basic features of the data set is described by using the function describe(). The output can be seen below:
 
-!
+![output2](https://user-images.githubusercontent.com/47481671/56411071-66647280-6277-11e9-903d-c165fda1f98f.JPG)
 
 4, To get better understanding of the sepal lenght / width and petal lenght / width the mean, standard deviation, minimum and maximum is calculated for each species separatelly. Refer below to the output 3.
 
-!
+
 
 * **Sepal Lenght** - the average lenght is 5.84 cm, virginica has the longest sepal from all 3 species (average 6.6 cm). Virginica has the highets range (3cm) when the minimum and maximum values are compared (Setosa-1.5cm and Versicolor-2.1cm). This is supported by the standard deviation, which shows that the virginica's values are more spread from the average as the other two species. In overall the standard deviation of sepal lenght is highest from all standard deviations across the atributes of the dataset (regardles of the species).
 
