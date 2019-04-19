@@ -9,6 +9,7 @@ Refer here for the instructions https://github.com/ianmcloughlin/project-pands/b
 The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in 1936.
 The data set consists of 50 samples from each of three species -Iris setosa, Iris virginica and Iris versicolor. 
 
+![irises](https://user-images.githubusercontent.com/47481671/56443288-e62c2480-62eb-11e9-9ad4-a4dc907a81b4.png)
 
 Four features were measured (in cm) from each sample:
 
@@ -17,8 +18,7 @@ Petal width
 Sepal length 
 Sepal width 
 
-
-
+![Sepal and petal](https://user-images.githubusercontent.com/47481671/56443313-08be3d80-62ec-11e9-933b-0810c5c33051.jpg)
 
 ## Libraries
 
@@ -60,7 +60,7 @@ reference: https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51
 
 4, To get better understanding of the sepal lenght / width and petal lenght / width the mean, standard deviation, minimum and maximum is calculated for each species separatelly. Refer below to the output 3.
 
-
+![Output3](https://user-images.githubusercontent.com/47481671/56443403-6e122e80-62ec-11e9-880c-58ee3daa40c4.JPG)
 
 * **Sepal Lenght** - the average lenght is 5.84 cm, virginica has the longest sepal from all 3 species (average 6.6 cm). Virginica has the highets range (3cm) when the minimum and maximum values are compared (Setosa-1.5cm and Versicolor-2.1cm). This is supported by the standard deviation, which shows that the virginica's values are more spread from the average as the other two species. In overall the standard deviation of sepal lenght is highest from all standard deviations across the atributes of the dataset (regardles of the species).
 
@@ -74,8 +74,21 @@ reference: https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51
 
 * The sepal width/lenght of setosa is distinguished from other two species by having wider but shorter sepals.This is supported by the calculation when the average lenght in cm is smallest value but the average widht of setosa is highest value in comparison to other two species.
 
+![Plot 1](https://user-images.githubusercontent.com/47481671/56443473-bcbfc880-62ec-11e9-8476-87436815820f.png)
+
 * The scaterplot of petal lenght and width is manifesting that species setosa lenght and width is not related to the lenght and width of other two species.
+
+
+![Plot 2 Petal_1](https://user-images.githubusercontent.com/47481671/56443481-cb0de480-62ec-11e9-9477-010be3003425.png)
 
 6, Seaborn pairplot helps to visualize the relationship between pairs of features.The Iris Setosa species are very easily separable from rest of data (species versicolor and virginica), which is supporting the findings above.
 
+![Plot 3 both variables](https://user-images.githubusercontent.com/47481671/56443503-e0830e80-62ec-11e9-8f07-e072d454e5b3.png)
+
 7, Boxplot is used to display how the values are spread out. The values in petal lenght and width are more represented in lower quartel. This anomaly is caused by species setosa as the values are have lower value of both variables (width and length) compared to other two species. 
+
+![Boxplot overall](https://user-images.githubusercontent.com/47481671/56443549-1627f780-62ed-11e9-9b2f-d0ab52b5c0de.png)
+
+Boxplot used for each of the species is displayed below:
+
+![Boxplot by species](https://user-images.githubusercontent.com/47481671/56443568-2c35b800-62ed-11e9-966e-c2a14df309ea.png)
