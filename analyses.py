@@ -11,7 +11,6 @@ import seaborn as sns
 # Load Iris data set from provided url link
 data = pd.read_csv('https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/iris.csv')
 
-
 # Displaying the the first 5 lines of the data set
 with open("output1.txt", 'w') as the_file:
     the_file.write(str(data.head(5)))
