@@ -13,10 +13,10 @@ The data set consists of 50 samples from each of three species -Iris setosa, Iri
 
 Four features were measured (in cm) from each sample:
 
-Petal length
-Petal width 
-Sepal length 
-Sepal width 
+* Petal length
+* Petal width 
+* Sepal length 
+* Sepal width 
 
 ![Sepal and petal](https://user-images.githubusercontent.com/47481671/56443313-08be3d80-62ec-11e9-933b-0810c5c33051.jpg)
 
@@ -27,7 +27,7 @@ Sepal width
 * Matplotlib- a Python 2D plotting library
 * Numpy-a fundamental package for scientific computing with Python
 
-## Statistics methods used:
+## Statistic's methods used:
 
 ### *Mean*
 * The "average" number, found by adding all data points and dividing by by the number of data points
@@ -38,7 +38,7 @@ Sepal width
 >reference: https://en.wikipedia.org/wiki/Standard_deviation
 
 ### *Minimum , Maximum , Range*
-*In statistics, the range is a measure of spread. It’s defined as the difference between the highest value (Maximum)  and the lowest value (Minimum) in a data set.
+* In statistics, the range is a measure of spread. It’s defined as the difference between the highest value (Maximum)  and the lowest value (Minimum) in a data set.
 >refernce: https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/statistics-definitions/range-statistics/
 
 ### *Boxplot*
@@ -62,7 +62,7 @@ reference: https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51
 
 ![Output3](https://user-images.githubusercontent.com/47481671/56443403-6e122e80-62ec-11e9-880c-58ee3daa40c4.JPG)
 
-* **Sepal Lenght** - the average lenght is 5.84 cm, virginica has the longest sepal from all 3 species (average 6.6 cm). Virginica has the highets range (3cm) when the minimum and maximum values are compared (Setosa-1.5cm and Versicolor-2.1cm). This is supported by the standard deviation, which shows that the virginica's values are more spread from the average as the other two species. In overall the standard deviation of sepal lenght is highest from all standard deviations across the atributes of the dataset (regardles of the species).
+* **Sepal Lenght** - the average lenght is 5.84 cm, virginica has the longest sepal from all 3 species (average 6.6 cm). Virginica has the highets range (3cm) when the minimum and maximum values are compared (Setosa-1.5cm and Versicolor-2.1cm). This is supported by the standard deviation calculation, which shows that the virginica's values are more spread from the average as the other two species. In overall the standard deviation of sepal lenght is highest from all standard deviations across the atributes of the dataset (regardles of the species).
 
 * **Sepal Width** - the average width is 3.05 cm. Out of all species Setosa-the only one with higher mean as mean calculated for all three species- has the longest average sepal width (3.42 cm). Setosa has the highest difference between the maximum and minimum value (2.1 cm), comparing to virginica's range at 1.6 cm and versicolor's range at 1.4 cm. Calculated standard deviations is highest for setosa species which reflects to the range between maximum/minimum values calculation.
 
@@ -92,3 +92,9 @@ reference: https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51
 Boxplot used for each of the species is displayed below:
 
 ![Boxplot by species](https://user-images.githubusercontent.com/47481671/56443568-2c35b800-62ed-11e9-966e-c2a14df309ea.png)
+
+## Source/Library
+* https://en.wikipedia.org/wiki/Iris_flower_data_set
+* https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
+* https://github.com/RitRa/Project2018-iris
+* https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
